@@ -1,0 +1,1 @@
+../../BeeFramework/BeeFramework/MVC/Controller/Extension/BeeMessage+ActiveRecord.h
