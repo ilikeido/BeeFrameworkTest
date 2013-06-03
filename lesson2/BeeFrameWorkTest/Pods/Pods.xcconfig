@@ -1,0 +1,7 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS} $(SDKROOT)/usr/include/libxml2 $(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2
+OTHER_LDFLAGS = -ObjC -lsqlite3 -lxml2 -lxml2.2 -lz -lz.1 -framework AVFoundation -framework CFNetwork -framework CoreGraphics -framework CoreMedia -framework CoreVideo -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/ASIHTTPRequest" "${PODS_ROOT}/BuildHeaders/BeeFramework" "${PODS_ROOT}/BuildHeaders/FMDB" "${PODS_ROOT}/BuildHeaders/JSONKit" "${PODS_ROOT}/BuildHeaders/Reachability" "${PODS_ROOT}/BuildHeaders/SFHFKeychainUtils" "${PODS_ROOT}/BuildHeaders/TouchXML"
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/ASIHTTPRequest" "${PODS_ROOT}/Headers/BeeFramework" "${PODS_ROOT}/Headers/FMDB" "${PODS_ROOT}/Headers/JSONKit" "${PODS_ROOT}/Headers/Reachability" "${PODS_ROOT}/Headers/SFHFKeychainUtils" "${PODS_ROOT}/Headers/TouchXML"
+PODS_ROOT = ${SRCROOT}/Pods

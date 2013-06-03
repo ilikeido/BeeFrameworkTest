@@ -1,0 +1,1 @@
+../../BeeFramework/BeeTemplates/CustomBoard/Bee_UICameraBoard.h
