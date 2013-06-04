@@ -1,0 +1,1 @@
+../../BeeFramework/BeeFramework/Core/Foundation/Extension/NSObject+BeeTypeConversion.h

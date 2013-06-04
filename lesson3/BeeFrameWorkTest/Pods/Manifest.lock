@@ -1,0 +1,42 @@
+PODS:
+  - ASIHTTPRequest (1.8.1):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/S3
+    - Reachability
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/CloudFiles (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.1):
+    - Reachability
+  - BeeFramework (HEAD based on 0.3):
+    - ASIHTTPRequest
+    - FMDB
+    - JSONKit
+    - Reachability
+    - SFHFKeychainUtils
+    - TouchXML
+  - FMDB (2.0):
+    - FMDB/standard
+  - FMDB/common (2.0)
+  - FMDB/standard (2.0):
+    - FMDB/common
+  - JSONKit (1.5pre)
+  - Reachability (3.1.0)
+  - SFHFKeychainUtils (0.0.1)
+  - TouchXML (0.1)
+
+DEPENDENCIES:
+  - BeeFramework (HEAD)
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: a411b8d0f006ed8fc24248be6a0c4ad2abc9b101
+  BeeFramework: cfa4a7230de15a0d34a7c6a15baa75abf29dc240
+  FMDB: 30a7cbcdbd354f5ee1ba081a8773fd9130c43b48
+  JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
+  Reachability: ba94ecd4eaa037be3d0588b38956672588530c5b
+  SFHFKeychainUtils: e828dbd9eaa509486acf95d8de2ebd414c4b7451
+  TouchXML: 0fb977f0bdd2ce2e5d0790c80751769459708810
+
+COCOAPODS: 0.18.1

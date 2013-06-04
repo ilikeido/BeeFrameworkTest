@@ -1,0 +1,1 @@
+../../BeeFramework/BeeFramework/MVC/Controller/Extension/NSObject+BeeMessage.h
